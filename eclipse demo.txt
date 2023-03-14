@@ -1,0 +1,24 @@
+package computation
+
+public class Compute{
+
+	public int simple_interest(int p, int r, int t){
+		return (p*r*t)/100;
+	}
+
+	public int rectangle_area(int l, int b){
+		return l*b;
+	}
+}
+
+
+********************************************************************
+
+import computation.Compute;
+
+public class Test{
+	public static void main(String []args){
+	
+	
+	}
+}
